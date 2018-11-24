@@ -23,11 +23,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="2" />
+          <entry key="css" value="3" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="2" />
           <entry key="html" value="4" />
-          <entry key="js" value="16" />
+          <entry key="js" value="17" />
           <entry key="json" value="3" />
           <entry key="md" value="1" />
           <entry key="png" value="1" />
@@ -35,11 +35,11 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="2" />
+          <entry key="CSS" value="3" />
           <entry key="HTML" value="4" />
           <entry key="Image" value="1" />
           <entry key="JSON" value="3" />
-          <entry key="JavaScript" value="16" />
+          <entry key="JavaScript" value="17" />
           <entry key="PLAIN_TEXT" value="5" />
         </counts>
       </usages-collector>
@@ -53,7 +53,7 @@
           <entry key="env" value="4" />
           <entry key="gitignore" value="30" />
           <entry key="html" value="16" />
-          <entry key="js" value="8613" />
+          <entry key="js" value="8636" />
           <entry key="json" value="109" />
           <entry key="txt" value="15" />
         </counts>
@@ -62,7 +62,7 @@
         <counts>
           <entry key="HTML" value="16" />
           <entry key="JSON" value="109" />
-          <entry key="JavaScript" value="8613" />
+          <entry key="JavaScript" value="8636" />
           <entry key="PLAIN_TEXT" value="49" />
         </counts>
       </usages-collector>
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/HomePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+            <state relative-caret-position="220">
+              <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -112,11 +112,28 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/LearnPage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +168,8 @@
         <option value="$PROJECT_DIR$/src/components/infoform/InfoForm.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/pages/LearnPage.js" />
-        <option value="$PROJECT_DIR$/src/pages/HomePage.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/pages/HomePage.js" />
       </list>
     </option>
   </component>
@@ -194,6 +211,12 @@
               <item name="public-speaking" type="b2602c69:ProjectViewProjectNode" />
               <item name="public-speaking" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="public-speaking" type="b2602c69:ProjectViewProjectNode" />
+              <item name="public-speaking" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +268,7 @@
       <updated>1543028564459</updated>
       <workItem from="1543028566834" duration="12911000" />
       <workItem from="1543081327811" duration="13057000" />
-      <workItem from="1543099586459" duration="343000" />
+      <workItem from="1543099586459" duration="704000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit.">
       <created>1543096067082</created>
@@ -258,7 +281,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26311000" />
+    <option name="totallyTimeSpent" value="26672000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="952" extended-state="0" />
@@ -278,7 +301,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.7162791" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.37558138" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,9 +325,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
@@ -349,16 +369,6 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/LearnPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/infoform/InfoForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -368,6 +378,16 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -379,20 +399,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/HomePage.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/LearnPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/pages/HomePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="220">
+          <caret line="39" column="40" lean-forward="true" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

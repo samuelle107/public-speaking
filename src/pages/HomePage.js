@@ -34,20 +34,18 @@ export default class HomePage extends Component {
                 <PageHeader>Family Planning: Planning for the Future</PageHeader>
                 <InfoForm database={this.props.database}/>
                 <div style={{ paddingTop: 15 }}>
-                    <div>
-                        <Panel>
-                            <Panel.Heading>
-                                <Panel.Title componentClass="h3">What the people have to say</Panel.Title>
-                            </Panel.Heading>
-                            <Panel.Body>
-                                <ListGroup>
-                                    {this.renderCurrentMessages()}
-                                </ListGroup>
-                            </Panel.Body>
-                        </Panel>
-                    </div>
+                    <Panel>
+                        <Panel.Heading>
+                            <Panel.Title componentClass="h3">What the People have to Say</Panel.Title>
+                        </Panel.Heading>
+                        <Panel.Body>
+                            <ListGroup>
+                                {this.renderCurrentMessages()}
+                            </ListGroup>
+                        </Panel.Body>
+                    </Panel>
                 </div>
             </Grid>
-        );
+        )
     }
 }
