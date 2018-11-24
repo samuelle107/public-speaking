@@ -36,7 +36,7 @@ export default class HomePage extends Component {
                 <div style={{ paddingTop: 15 }}>
                     <Panel>
                         <Panel.Heading>
-                            <Panel.Title componentClass="h3">What the People have to Say</Panel.Title>
+                            <Panel.Title componentClass="h3">What the People Have to Say</Panel.Title>
                         </Panel.Heading>
                         <Panel.Body>
                             <ListGroup>
