@@ -14,9 +14,11 @@ export default class HomePage extends Component {
     componentDidMount() {
         let ref = this.props.database.ref();
         ref.on('value', snapshot => {
-            let students = snapshot.val();
-            let messageArray = Object.values(students.students);
-            this.setState({ messages: messageArray });
+            let students = snapshot.val().students;
+            if(students) {
+                let messageArray = Object.values(students);
+                this.setState({ messages: messageArray });
+            }
         });
     }
 

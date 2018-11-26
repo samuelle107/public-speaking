@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomePage from './pages/HomePage';
 import * as firebase from 'firebase';
+import { Grid, PageHeader } from 'react-bootstrap';
 import { HashRouter, Route} from 'react-router-dom';
 import CustomNavbar from './components/customnavbar/CustomNavbar';
 import LearnPage from './pages/LearnPage';
@@ -17,21 +18,40 @@ const config = {
 export default class App extends Component {
     constructor() {
         super();
+        this.state = {
+          active: false,
+        };
         if (!firebase.apps.length) {
             firebase.initializeApp(config);
         }
         this.defaultDatabase = firebase.database();
     }
 
+    componentDidMount() {
+        let ref = this.defaultDatabase.ref();
+        ref.on('value', snapshot => {
+            let active = snapshot.val().active;
+            this.setState({ active: active });
+        });
+    }
+
     render() {
-        return (
-          <HashRouter>
-              <div>
-                  <CustomNavbar/>
-                  <Route exact path='/' render={()=>(<HomePage database={this.defaultDatabase}/>)} />
-                  <Route exact path='/learn' component={ LearnPage } />
-              </div>
-          </HashRouter>
-        );
+        if(this.state.active) {
+            return (
+                <HashRouter>
+                    <div>
+                        <CustomNavbar/>
+                        <Route exact path='/' render={()=>(<HomePage database={this.defaultDatabase}/>)} />
+                        <Route exact path='/learn' component={ LearnPage } />
+                    </div>
+                </HashRouter>
+            );
+        } else {
+            return (
+                <Grid>
+                    <PageHeader>Please wait</PageHeader>
+                </Grid>
+            );
+        }
     }
 }
